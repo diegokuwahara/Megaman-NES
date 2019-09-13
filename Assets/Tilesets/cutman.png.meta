@@ -1,0 +1,979 @@
+fileFormatVersion: 2
+guid: 381dc7dfb11f3d7459634ab70251aade
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3987509121971499833
+    second: cutman_0
+  - first:
+      213: 3788094309203298163
+    second: cutman_1
+  - first:
+      213: 4840303088060396213
+    second: cutman_2
+  - first:
+      213: 1138897908535843541
+    second: cutman_3
+  - first:
+      213: -1029082923409001064
+    second: cutman_4
+  - first:
+      213: -8882598933842844062
+    second: cutman_5
+  - first:
+      213: -4346912695718780521
+    second: cutman_6
+  - first:
+      213: -3868510458602147271
+    second: cutman_7
+  - first:
+      213: -5427450393489277208
+    second: cutman_8
+  - first:
+      213: 8781687668660594043
+    second: cutman_9
+  - first:
+      213: -704871959731468220
+    second: cutman_10
+  - first:
+      213: 1469837513708235177
+    second: cutman_11
+  - first:
+      213: 6045900426455926535
+    second: cutman_12
+  - first:
+      213: 6570731141131367641
+    second: cutman_13
+  - first:
+      213: 2515932663241004653
+    second: cutman_14
+  - first:
+      213: 1584829542839752596
+    second: cutman_15
+  - first:
+      213: 8893573807010401244
+    second: cutman_16
+  - first:
+      213: 7831846118709809407
+    second: cutman_17
+  - first:
+      213: 5398897959163514151
+    second: cutman_18
+  - first:
+      213: -878576634879931592
+    second: cutman_19
+  - first:
+      213: -8458773276697979636
+    second: cutman_20
+  - first:
+      213: -5895525913857480882
+    second: cutman_21
+  - first:
+      213: 1966613760284676729
+    second: cutman_22
+  - first:
+      213: 7988920573058184213
+    second: cutman_23
+  - first:
+      213: 4224496311057497880
+    second: cutman_24
+  - first:
+      213: -7104262430792114252
+    second: cutman_25
+  - first:
+      213: -1224455650689130256
+    second: cutman_26
+  - first:
+      213: 4813331828765883727
+    second: cutman_27
+  - first:
+      213: -3211417168392416899
+    second: cutman_28
+  - first:
+      213: -301305029558430314
+    second: cutman_29
+  - first:
+      213: -7687306825680742103
+    second: cutman_30
+  - first:
+      213: -2852008990850496935
+    second: cutman_31
+  - first:
+      213: -7441499433976061416
+    second: cutman_32
+  - first:
+      213: -5361094454982456813
+    second: cutman_33
+  - first:
+      213: -8990024518358891373
+    second: cutman_34
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cutman_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f138c8470e6570744a68789912ddb3c6
+      internalID: -3987509121971499833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 51.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa95295b0df9f448b06cec8567bd0de
+      internalID: 3788094309203298163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 51.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f969d037b1947428baae3f06a22130
+      internalID: 4840303088060396213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 51.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363c6b7602deb7f459e2b3e2a7a21c11
+      internalID: 1138897908535843541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 51.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6941e4a34c3c6d54cb4dc7e65e465f31
+      internalID: -1029082923409001064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 51.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a471649b907a0de4c99eb8257787593e
+      internalID: -8882598933842844062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 51.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c07c94324f70bb469baf4368f7e38e5
+      internalID: -4346912695718780521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 51.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d9b44ba2a281448a34a3168116515a
+      internalID: -3868510458602147271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f98b35231a70fe4f851a9261050a9f6
+      internalID: -5427450393489277208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 34.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11732c2032c65d84684c6515c916f783
+      internalID: 8781687668660594043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 34.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453931f99be58ac46873e19e3f9e548a
+      internalID: -704871959731468220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 34.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b95faabdb27b040bed27925e609f5a
+      internalID: 1469837513708235177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 34.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec40ab9be6a927448381c2ca9960ebb
+      internalID: 6045900426455926535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 34.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ee90a925b199948bd6472f2e5e3708
+      internalID: 6570731141131367641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 34.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c61f646ede4b14f9c03786d7e35fd4
+      internalID: 2515932663241004653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_15
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 34.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9178388d02273da459ae51db5090bd2f
+      internalID: 1584829542839752596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_16
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 34.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8230b8ce596b0cb469b72d76cf23d05a
+      internalID: 8893573807010401244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f761e4aaaf1ab54ba190e1d43849db2
+      internalID: 7831846118709809407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e10c5bdc65b7409110fc7750c405b
+      internalID: 5398897959163514151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 17.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63974162a29500f4c8783ae39c0607e1
+      internalID: -878576634879931592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 17.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a66ada3eb643a4bbc6b07a4886ebac
+      internalID: -8458773276697979636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 17.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa19d7ddc8da954f9f7152aa64a996c
+      internalID: -5895525913857480882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_22
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 17.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7480dfafcec1324ab8d75b685d595d4
+      internalID: 1966613760284676729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 17.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8deaff2626a73e49ba601c4bab3af0a
+      internalID: 7988920573058184213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_24
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 17.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729832ac3c4fa8845b358cbc7e1ff979
+      internalID: 4224496311057497880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ba156f2ad30934bb0db95db67f79ba
+      internalID: -7104262430792114252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e17d3b753d9556419fda06b9ed18062
+      internalID: -1224455650689130256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bcef42b6e525e4891682da0974bbd7
+      internalID: 4813331828765883727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_28
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1db6c871adf014ba353dd0c4a0db8d
+      internalID: -3211417168392416899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_29
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f354fe85d32794d8bf74a1cf32e455
+      internalID: -301305029558430314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa5f01e5e4559f44a44a796a85dd7a1
+      internalID: -7687306825680742103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_31
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca00c3103cb2d145b151eeb18bde048
+      internalID: -2852008990850496935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_32
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3114220bfa44aa142915da9824955bb6
+      internalID: -7441499433976061416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_33
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f5460ff3059c14aae19d893fcfb9f4
+      internalID: -5361094454982456813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutman_34
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0.75
+        width: 17.11111
+        height: 17.25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ac047415a0e76409298e413be03970
+      internalID: -8990024518358891373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
