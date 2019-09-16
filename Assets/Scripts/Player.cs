@@ -8,9 +8,10 @@ public class Player : MonoBehaviour
     public Transform groundCheck;
     public float jumpStrength;
     public LayerMask ladderLayer;
+    public GameObject basicShotPrefab;
+    public Transform shootingTrigger; 
 
     private bool isGrounded = false;
-    private bool isWalking = false;
     private bool isFacingRight = true;
     private bool isJumping = false;
     private bool isClimbing = false;
@@ -38,6 +39,11 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
+        }
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            this.Fire();
         }
 
     }
@@ -102,6 +108,12 @@ public class Player : MonoBehaviour
     private void Flip()
     {
         isFacingRight = !isFacingRight;
-        base.transform.localScale = new Vector3(-base.transform.localScale.x, base.transform.localScale.y, base.transform.localScale.z);
+        base.transform.Rotate(0f, 180, 0f);
+    }
+
+    private void Fire()
+    {
+        animator.SetTrigger("Fire");
+        Instantiate(basicShotPrefab, shootingTrigger.position, shootingTrigger.rotation);   
     }
 }
