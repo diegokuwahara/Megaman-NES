@@ -8,20 +8,21 @@ public class Camera : MonoBehaviour
     public float posicaoMinimaY;
 
     private Vector2 velocity;
-    private Transform player;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        player = GameObject.Find("Player").GetComponent<Transform>();
-    }
+    public Transform player;
 
     // Update is called once per frame
     void Update()
     {
-        float posX = player.position.x < posicaoMinimaX ? base.transform.position.x : player.position.x;
-        float posY = player.position.y < posicaoMinimaY ? base.transform.position.y : player.position.y;
-                     
+        float posX = base.transform.position.x;
+        float posY = base.transform.position.y;
+        
+        if (player != null)
+        {
+            posX = player.position.x > posicaoMinimaX ? posX : player.position.x;
+            posY = player.position.y > posicaoMinimaY ? posY : player.position.y;
+        }
+
+
         base.transform.position = new Vector3(posX, posY, base.transform.position.z);
     }
 }

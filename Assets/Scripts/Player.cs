@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using static SoundManager;
 
 public class Player : MonoBehaviour
 {
@@ -9,7 +11,10 @@ public class Player : MonoBehaviour
     public float jumpStrength;
     public LayerMask ladderLayer;
     public GameObject basicShotPrefab;
-    public Transform shootingTrigger; 
+    public Transform shootingTrigger;
+    public AudioClip defaultShot;
+    public AudioClip deathSound;
+    public AudioClip landingSound;
 
     private bool isGrounded = false;
     private bool isFacingRight = true;
@@ -19,6 +24,7 @@ public class Player : MonoBehaviour
     private Animator animator;
     private new Rigidbody2D rigidbody2D;
     private float defaultGravityScale;
+    private SoundManager soundManager;
     
     // Start is called before the first frame update
     void Start()
@@ -27,6 +33,8 @@ public class Player : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         defaultGravityScale = rigidbody2D.gravityScale;
+        soundManager = SoundManager.instance;
+        
     }
 
     // Update is called once per frame
@@ -50,6 +58,12 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (animator.GetAnimatorTransitionInfo(0).IsName("Jumping -> Idle") || animator.GetAnimatorTransitionInfo(0).IsName("Jumping -> Walking") )
+        {
+            soundManager.PlaySound(ESource.Megaman, landingSound);
+        }
+
+
         float direction = Input.GetAxisRaw("Horizontal");
         rigidbody2D.velocity = new Vector2(direction * walkSpeed, rigidbody2D.velocity.y);
 
@@ -113,7 +127,21 @@ public class Player : MonoBehaviour
 
     private void Fire()
     {
+        soundManager.PlaySound(ESource.Shooting, defaultShot);
         animator.SetTrigger("Fire");
         Instantiate(basicShotPrefab, shootingTrigger.position, shootingTrigger.rotation);   
+    }
+
+    public void KillPlayer()
+    {
+        soundManager.StopMusic();
+        soundManager.PlaySound(ESource.Megaman, deathSound);
+        gameObject.SetActive(false);
+        Invoke("ReloadLevel", 3f);
+    }
+
+    private void ReloadLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
     }
 }
