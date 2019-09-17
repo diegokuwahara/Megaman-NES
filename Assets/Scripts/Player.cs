@@ -34,6 +34,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         defaultGravityScale = rigidbody2D.gravityScale;
         soundManager = SoundManager.instance;
+        GameObject.Find("Main Camera").GetComponent<Camera>().SetPlayerTransform(base.transform);
         
     }
 
