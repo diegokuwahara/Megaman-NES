@@ -20,11 +20,13 @@ public class Player : MonoBehaviour
     private bool isFacingRight = true;
     private bool isJumping = false;
     private bool isClimbing = false;
+    private bool isSpawning = true;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private new Rigidbody2D rigidbody2D;
     private float defaultGravityScale;
     private SoundManager soundManager;
+    private Camera mainCamera;
     
     // Start is called before the first frame update
     void Start()
@@ -34,8 +36,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         defaultGravityScale = rigidbody2D.gravityScale;
         soundManager = SoundManager.instance;
-        GameObject.Find("Main Camera").GetComponent<Camera>().SetPlayerTransform(base.transform);
-        
+        mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();        
     }
 
     // Update is called once per frame
@@ -50,7 +51,7 @@ public class Player : MonoBehaviour
             isJumping = true;
         }
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && !isSpawning)
         {
             this.Fire();
         }
@@ -59,6 +60,11 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (isSpawning && isGrounded && (base.transform.position.y <= mainCamera.orthographicSize / 2))
+        {
+            this.InitializePlayer();
+        }
+
         if (animator.GetAnimatorTransitionInfo(0).IsName("Jumping -> Idle") || animator.GetAnimatorTransitionInfo(0).IsName("Jumping -> Walking") )
         {
             soundManager.PlaySound(ESource.Megaman, landingSound);
@@ -144,5 +150,14 @@ public class Player : MonoBehaviour
     private void ReloadLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
+    }
+
+    private void InitializePlayer()
+    {
+        this.GetComponent<CapsuleCollider2D>().isTrigger = false;
+        this.animator.SetTrigger("Spawn");
+        isSpawning = false;
+        GameObject.Find("Main Camera").GetComponent<CameraScript>().SetPlayerTransform(base.transform);
+        rigidbody2D.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
     }
 }

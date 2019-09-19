@@ -14,8 +14,9 @@ public class ReadyScript : MonoBehaviour
     }
 
     void CriaPlayer()
-    {
-        Instantiate(playerPrefab, new Vector3(mainCamera.transform.position.x, mainCamera.transform.position.y, 10), playerPrefab.transform.rotation);
+    {   
+        Camera camera = mainCamera.GetComponent<Camera>();
+        float cameraHeight = camera.orthographicSize;
+        Instantiate(playerPrefab, new Vector3(mainCamera.transform.position.x, cameraHeight, 10), playerPrefab.transform.rotation);
     }
-
 }

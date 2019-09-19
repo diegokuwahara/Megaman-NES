@@ -23,9 +23,5 @@ public class PlayerProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.CompareTag("Ground"))
-        {
-            Debug.Log("Bateu na parede");
-        }
     }
 }
