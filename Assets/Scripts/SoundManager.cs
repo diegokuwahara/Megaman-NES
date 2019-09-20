@@ -6,6 +6,7 @@ public class SoundManager : MonoBehaviour
 {
     public AudioSource megamanSounds;
     public AudioSource shootingSounds;
+    public AudioSource enemySounds;
     public AudioSource musicSource;
 
     public static SoundManager instance = null;
@@ -40,6 +41,10 @@ public class SoundManager : MonoBehaviour
             case ESource.Shooting:
                 shootingSounds.clip = clip;
                 shootingSounds.Play();
+                break;
+            case ESource.Enemy:
+                enemySounds.clip = clip;
+                enemySounds.Play();
                 break;
             default:
                 break;

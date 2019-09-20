@@ -1,0 +1,1219 @@
+fileFormatVersion: 2
+guid: 18533f19dcde17f45a1075c79a9cbd1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1224132337067113848
+    second: megamanattacks_0
+  - first:
+      213: 7078329112060873834
+    second: megamanattacks_1
+  - first:
+      213: 8577491707640787164
+    second: megamanattacks_2
+  - first:
+      213: -1848121915911706313
+    second: megamanattacks_3
+  - first:
+      213: -5064406424077852184
+    second: megamanattacks_4
+  - first:
+      213: 2896854845378038814
+    second: megamanattacks_5
+  - first:
+      213: -1371955798668642348
+    second: megamanattacks_6
+  - first:
+      213: 2603541955253036274
+    second: megamanattacks_7
+  - first:
+      213: -1026677300009329519
+    second: megamanattacks_8
+  - first:
+      213: 1269925995562926472
+    second: megamanattacks_9
+  - first:
+      213: 2262903113504783648
+    second: megamanattacks_10
+  - first:
+      213: -8251276245727400835
+    second: megamanattacks_11
+  - first:
+      213: 8949824493400433863
+    second: megamanattacks_12
+  - first:
+      213: 7613979699635492859
+    second: megamanattacks_13
+  - first:
+      213: -5464060451917765006
+    second: megamanattacks_14
+  - first:
+      213: 7137412363114967096
+    second: megamanattacks_15
+  - first:
+      213: 3494967109670966394
+    second: megamanattacks_16
+  - first:
+      213: -6703591704310589258
+    second: megamanattacks_17
+  - first:
+      213: -7567944269984540638
+    second: megamanattacks_18
+  - first:
+      213: -1613107662254556474
+    second: megamanattacks_19
+  - first:
+      213: -1383830274212385882
+    second: megamanattacks_20
+  - first:
+      213: -5479914024983983599
+    second: megamanattacks_21
+  - first:
+      213: -4824171873302697056
+    second: megamanattacks_22
+  - first:
+      213: -4768127933376763779
+    second: megamanattacks_23
+  - first:
+      213: -3250736211047893914
+    second: megamanattacks_24
+  - first:
+      213: -5622784851628836262
+    second: megamanattacks_25
+  - first:
+      213: 2183253147447854112
+    second: megamanattacks_26
+  - first:
+      213: -5917338715249974808
+    second: megamanattacks_27
+  - first:
+      213: -4258404464808517601
+    second: megamanattacks_28
+  - first:
+      213: -6352960177069791805
+    second: megamanattacks_29
+  - first:
+      213: -8811904287778331556
+    second: megamanattacks_30
+  - first:
+      213: 3038869425769165862
+    second: megamanattacks_31
+  - first:
+      213: 4713353350679868959
+    second: megamanattacks_32
+  - first:
+      213: 1013344343933373482
+    second: megamanattacks_33
+  - first:
+      213: 4459053943975264758
+    second: megamanattacks_34
+  - first:
+      213: -8239834450078079407
+    second: megamanattacks_35
+  - first:
+      213: 7428166596185973075
+    second: megamanattacks_36
+  - first:
+      213: 2680649341220946641
+    second: megamanattacks_37
+  - first:
+      213: 144658052705288585
+    second: megamanattacks_38
+  - first:
+      213: 9098236446986877203
+    second: megamanattacks_39
+  - first:
+      213: 918725708355053494
+    second: megamanattacks_40
+  - first:
+      213: 6120124143386458447
+    second: megamanattacks_41
+  - first:
+      213: 8700291604123372889
+    second: megamanattacks_42
+  - first:
+      213: 2334499734289030706
+    second: megamanattacks_43
+  - first:
+      213: 778003603001670576
+    second: megamanattacks_44
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: megamanattacks_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 271
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91e8d07fecdfeb49bb628076ca52697
+      internalID: 1224132337067113848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 272
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f680c83775ef37418cee381e1cb2a8c
+      internalID: 7078329112060873834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 271
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102bc350575bd124395baf40f60d7b4d
+      internalID: 8577491707640787164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 272
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca6e9f533ce9c44ba42377e7350d870
+      internalID: -1848121915911706313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 274
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed656168f4182b4429cc5aef6cb2ae51
+      internalID: -5064406424077852184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 277
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0715295f044e98f4587f7d248ca6fe5c
+      internalID: 2896854845378038814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 244
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3764cc9f849554b851e8553d8db11e
+      internalID: -1371955798668642348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 252
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e9557561e65114c8ff8b8d3f60457f
+      internalID: 2603541955253036274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 250
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bff66ade9e43b43818c9fe11b22276
+      internalID: -1026677300009329519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 250
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d63c3fd041ba941aac6e5913435e42
+      internalID: 1269925995562926472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d9590c87c8a114ca4ba641f95beb46
+      internalID: 2262903113504783648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 250
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dcf88cececa1547b8cbee5c98a7911
+      internalID: -8251276245727400835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_12
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 253
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69b7b85cb9f99848a72441f8f54146a
+      internalID: 8949824493400433863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 214
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcb655b3e860d14a94919504839ddfe
+      internalID: 7613979699635492859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 219
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835e29e84e8405a449dee19e640fbb99
+      internalID: -5464060451917765006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 219
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70ee7f7177739142bb168d78e334fc0
+      internalID: 7137412363114967096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 189
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2b41d95c66f7443b454cd509fcb151
+      internalID: 3494967109670966394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 189
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf700b2d1713b9a4d9283576d3995f26
+      internalID: -6703591704310589258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 163
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b14818dc81794e4581437cba229785b
+      internalID: -7567944269984540638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 165
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d1d27a71358ab4394e1d3efd46c21d
+      internalID: -1613107662254556474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 165
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3785eab7f96943142bbacc52dd73182b
+      internalID: -1383830274212385882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_21
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 165
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2c617e81493e947b4d6991792bfe1c
+      internalID: -5479914024983983599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_22
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 165
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88eeb2fe73120a746b6db7fdb3cfe16d
+      internalID: -4824171873302697056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 127
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfbc8f3ac0949a48a9afc2f19099d66
+      internalID: -4768127933376763779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd8de6d12bd59745a93a9d9d0a972c6
+      internalID: -3250736211047893914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_25
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 136
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2794d0164e1eb4a827b0abf6ef4e61
+      internalID: -5622784851628836262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_26
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cfe99dc71ee114e9519b5ee38dcf4f
+      internalID: 2183253147447854112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_27
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 127
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36680c51ad886bc44b8e37884177ad54
+      internalID: -5917338715249974808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_28
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 127
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbb555a788053b4280fc30b2bc17e0f
+      internalID: -4258404464808517601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_29
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 132
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1560c8f9e78124da87885822916b8d
+      internalID: -6352960177069791805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_30
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 127
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0b7eb5cffb1b745abd12e2b4c4cdfa
+      internalID: -8811904287778331556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840cde01db45a164fbf143295dba7fab
+      internalID: 3038869425769165862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 91
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d1ce054e4a9414d827598354db337c
+      internalID: 4713353350679868959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 89
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ce3e76343b85d438d9116797a55c49
+      internalID: 1013344343933373482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_34
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 89
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fb7882e8fae6740b85e33dfc956dc8
+      internalID: 4459053943975264758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 89
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcfd02fab93ae74f9e6bd30dfcf2f62
+      internalID: -8239834450078079407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e65c0660e202d442a2d0cbf8ce93915
+      internalID: 7428166596185973075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_37
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 45
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012197f42ef22fd439439a32f425dbcf
+      internalID: 2680649341220946641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_38
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 45
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41defa3297363404a9a4a5b77715ca51
+      internalID: 144658052705288585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_39
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 45
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a945ec64ab82004e9046c3720734f3d
+      internalID: 9098236446986877203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 25
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee8ca71093541a489f9ecf777f834ca
+      internalID: 918725708355053494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_41
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b247a0a917ba2a4abc940878a7c27bb
+      internalID: 6120124143386458447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf26dd2a34a06145bc860a19a571888
+      internalID: 8700291604123372889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_43
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043a72da35ac5264180608f4d9cbe5ec
+      internalID: 2334499734289030706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanattacks_44
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b812de1fce3ecb844aa8f3270c097eba
+      internalID: 778003603001670576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

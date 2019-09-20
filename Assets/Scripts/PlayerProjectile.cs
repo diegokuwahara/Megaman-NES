@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static SoundManager;
 
 public class PlayerProjectile : MonoBehaviour
 {
     public float speed;
+    public AudioClip damageHit;
 
     private Rigidbody2D rigidbody2D;
+    private SoundManager soundManager;
 
     // Update is called once per frame
 
@@ -14,6 +17,7 @@ public class PlayerProjectile : MonoBehaviour
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         rigidbody2D.velocity = base.transform.right * speed;
+        soundManager = SoundManager.instance;
     }
 
     void Update()
@@ -23,5 +27,12 @@ public class PlayerProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
+        IEnemy enemy = collider.gameObject.GetComponent<IEnemy>();
+        if (enemy != null)
+        {
+            soundManager.PlaySound(ESource.Enemy, damageHit);
+            enemy.DoDamage();
+            Destroy(gameObject);
+        }
     }
 }
