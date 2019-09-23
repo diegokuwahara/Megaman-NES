@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2232785678695792276}
   m_Layer: 14
   m_Name: Blader
-  m_TagString: Blader
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

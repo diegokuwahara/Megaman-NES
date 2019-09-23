@@ -6,17 +6,6 @@ public class Blader : MonoBehaviour, IEnemy
 {
     public int life;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void DoDamage()
     {
         life--;
@@ -28,6 +17,8 @@ public class Blader : MonoBehaviour, IEnemy
 
     public void KillEnemy()
     {
-        Destroy(gameObject);
+        this.GetComponent<Animator>().SetTrigger("Die");
+        this.GetComponent<CapsuleCollider2D>().enabled = false;
+        Destroy(gameObject, 0.2f);
     }
 }

@@ -15,12 +15,16 @@ public class Player : MonoBehaviour
     public AudioClip defaultShot;
     public AudioClip deathSound;
     public AudioClip landingSound;
+    public AudioClip hurtSound;
+    public SpriteRenderer hurtEffectSprite;
 
     private bool isGrounded = false;
+    private bool inputEnable = true;
     private bool isFacingRight = true;
     private bool isJumping = false;
     private bool isClimbing = false;
     private bool isSpawning = true;
+    private bool isInvulnerable = false;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private new Rigidbody2D rigidbody2D;
@@ -46,12 +50,12 @@ public class Player : MonoBehaviour
 
         this.Animations();
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded && inputEnable)
         {
             isJumping = true;
         }
 
-        if (Input.GetButtonDown("Fire1") && !isSpawning)
+        if (Input.GetButtonDown("Fire1") && !isSpawning && inputEnable)
         {
             this.Fire();
         }
@@ -72,7 +76,10 @@ public class Player : MonoBehaviour
 
 
         float direction = Input.GetAxisRaw("Horizontal");
-        rigidbody2D.velocity = new Vector2(direction * walkSpeed, rigidbody2D.velocity.y);
+        if (inputEnable)
+        {
+            rigidbody2D.velocity = new Vector2(direction * walkSpeed, rigidbody2D.velocity.y);
+        }
 
         if ((direction < 0f && isFacingRight) || (direction > 0f && !isFacingRight))
             this.Flip();
@@ -159,5 +166,62 @@ public class Player : MonoBehaviour
         isSpawning = false;
         GameObject.Find("Main Camera").GetComponent<CameraScript>().SetPlayerTransform(base.transform);
         rigidbody2D.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
+    }
+
+    public void DoDamage()
+    {
+        if (!isInvulnerable)
+        {
+            animator.SetBool("isHurt", true);
+            this.isInvulnerable = true;
+            //this.health--;
+            StartCoroutine(this.DamageEffect());
+            SoundManager.instance.PlaySound(ESource.Megaman, hurtSound);
+        }
+    }
+
+    private IEnumerator DamageEffect()
+    {
+        float xDirection = isFacingRight ? -1f : 1f;
+        inputEnable = false;
+
+        if (!isGrounded)
+        {
+            rigidbody2D.AddForce(new Vector2(xDirection, 13f), ForceMode2D.Impulse);
+        }
+        else
+        {
+            rigidbody2D.AddForce(new Vector2(xDirection, 5f), ForceMode2D.Impulse);
+        }
+
+        for (float i = 0f; i < 0.3; i += 0.1f)
+        {
+            hurtEffectSprite.enabled = false;
+            this.spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(0.05f);
+            this.spriteRenderer.enabled = true;
+            hurtEffectSprite.enabled = true;
+            yield return new WaitForSeconds(0.05f);
+        }
+        while (!isGrounded)
+        {
+            hurtEffectSprite.enabled = false;
+            this.spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(0.05f);
+            this.spriteRenderer.enabled = true;
+            hurtEffectSprite.enabled = true;
+            yield return new WaitForSeconds(0.05f);
+        }
+        inputEnable = true;
+        animator.SetBool("isHurt", false);
+        hurtEffectSprite.enabled = false;
+        for (float i = 0f; i < 1; i += 0.1f)
+        {
+            this.spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(0.05f);
+            this.spriteRenderer.enabled = true;
+            yield return new WaitForSeconds(0.05f);
+        }
+        this.isInvulnerable = false;
     }
 }

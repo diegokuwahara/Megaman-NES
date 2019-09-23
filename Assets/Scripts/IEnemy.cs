@@ -5,6 +5,4 @@ using UnityEngine;
 public interface IEnemy
 {
     void DoDamage();
-
-    void KillEnemy();
 }

@@ -32,7 +32,7 @@ public class PlayerProjectile : MonoBehaviour
         {
             soundManager.PlaySound(ESource.Enemy, damageHit);
             enemy.DoDamage();
-            Destroy(gameObject);
+            Destroy(gameObject, 0.03f);
         }
     }
 }

@@ -8,7 +8,7 @@ TagManager:
   - GroundCheck
   - Ground
   - WholeLevel
-  - Blader
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -60,6 +60,9 @@ TagManager:
     locked: 0
   - name: Characters/Enemies
     uniqueID: 411941615
+    locked: 0
+  - name: BackGroundPlayerEffect
+    uniqueID: 2255993413
     locked: 0
   - name: Characters/Player
     uniqueID: 2281034685
