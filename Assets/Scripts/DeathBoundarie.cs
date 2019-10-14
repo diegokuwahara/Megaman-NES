@@ -8,7 +8,7 @@ public class DeathBoundarie : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<Player>().KillPlayer();
+            collision.GetComponent<Player>().KillPlayer(false);
         }
     }
 }

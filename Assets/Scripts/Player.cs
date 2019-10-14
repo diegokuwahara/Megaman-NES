@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public float walkSpeed;
     public Transform groundCheck;
     public float jumpStrength;
+    public int health;
     public LayerMask ladderLayer;
     public GameObject basicShotPrefab;
     public Transform shootingTrigger;
@@ -16,6 +17,7 @@ public class Player : MonoBehaviour
     public AudioClip deathSound;
     public AudioClip landingSound;
     public AudioClip hurtSound;
+    public AudioClip spawnSound;
     public SpriteRenderer hurtEffectSprite;
 
     private bool isGrounded = false;
@@ -24,7 +26,7 @@ public class Player : MonoBehaviour
     private bool isJumping = false;
     private bool isClimbing = false;
     private bool isSpawning = true;
-    private bool isInvulnerable = false;
+    private bool isInvulnerable = true;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
     private new Rigidbody2D rigidbody2D;
@@ -40,7 +42,8 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         defaultGravityScale = rigidbody2D.gravityScale;
         soundManager = SoundManager.instance;
-        mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();        
+        mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
+        rigidbody2D.gravityScale = 0;
     }
 
     // Update is called once per frame
@@ -64,65 +67,76 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isSpawning && isGrounded && (base.transform.position.y <= mainCamera.orthographicSize / 2))
+        if (isSpawning)
         {
-            this.InitializePlayer();
-        }
-
-        if (animator.GetAnimatorTransitionInfo(0).IsName("Jumping -> Idle") || animator.GetAnimatorTransitionInfo(0).IsName("Jumping -> Walking") )
-        {
-            soundManager.PlaySound(ESource.Megaman, landingSound);
-        }
-
-
-        float direction = Input.GetAxisRaw("Horizontal");
-        if (inputEnable)
-        {
-            rigidbody2D.velocity = new Vector2(direction * walkSpeed, rigidbody2D.velocity.y);
-        }
-
-        if ((direction < 0f && isFacingRight) || (direction > 0f && !isFacingRight))
-            this.Flip();
-
-        if (isJumping)
-        {
-            rigidbody2D.AddForce(new Vector2(rigidbody2D.velocity.x, jumpStrength));
-            isJumping = false;
-        }
-
-        RaycastHit2D hitInfo = Physics2D.Raycast(groundCheck.position, Vector2.up, 10, ladderLayer);
-        Debug.DrawRay(groundCheck.position, Vector2.up, Color.red);
-
-        if (hitInfo.collider != null)
-        {
-            if (Input.GetAxisRaw("Vertical") > 0)
+            if (isGrounded && (base.transform.position.y <= mainCamera.orthographicSize / 2))
             {
-                isClimbing = true;
-                transform.position = new Vector2(hitInfo.transform.position.x, transform.position.y);
-            }else if (Input.GetButtonDown("Jump") || (isGrounded && Input.GetAxisRaw("Horizontal") != 0))
+                this.InitializePlayer();
+            }
+            else
+            {
+                rigidbody2D.velocity = -base.transform.up * 35;
+            }
+            
+        }
+        else
+        {
+            if (animator.GetAnimatorTransitionInfo(0).IsName("Jumping -> Idle") || animator.GetAnimatorTransitionInfo(0).IsName("Jumping -> Walking"))
+            {
+                soundManager.PlaySound(ESource.Megaman, landingSound);
+            }
+
+
+            float direction = Input.GetAxisRaw("Horizontal");
+            if (inputEnable)
+            {
+                rigidbody2D.velocity = new Vector2(direction * walkSpeed, rigidbody2D.velocity.y);
+            }
+
+            if ((direction < 0f && isFacingRight) || (direction > 0f && !isFacingRight))
+                this.Flip();
+
+            if (isJumping)
+            {
+                rigidbody2D.AddForce(new Vector2(rigidbody2D.velocity.x, jumpStrength));
+                isJumping = false;
+            }
+
+            RaycastHit2D hitInfo = Physics2D.Raycast(groundCheck.position, Vector2.up, 10, ladderLayer);
+            Debug.DrawRay(groundCheck.position, Vector2.up, Color.red);
+
+            if (hitInfo.collider != null)
+            {
+                if (Input.GetAxisRaw("Vertical") > 0)
+                {
+                    isClimbing = true;
+                    transform.position = new Vector2(hitInfo.transform.position.x, transform.position.y);
+                }
+                else if (Input.GetButtonDown("Jump") || (isGrounded && Input.GetAxisRaw("Horizontal") != 0))
+                {
+                    isClimbing = false;
+                }
+
+            }
+            else
             {
                 isClimbing = false;
             }
 
-        }
-        else
-        {
-            isClimbing = false;
-        }
+            if (isClimbing && hitInfo.collider != null)
+            {
+                float vDirection = Input.GetAxisRaw("Vertical");
+                animator.speed = vDirection == 0 ? 0 : 1;
 
-        if (isClimbing && hitInfo.collider != null)
-        {
-            float vDirection = Input.GetAxisRaw("Vertical");
-            animator.speed = vDirection == 0 ? 0 : 1;
-
-            rigidbody2D.velocity = new Vector2(0f, vDirection * 3);
-            rigidbody2D.gravityScale = 0;
-        }
-        else
-        {
-            animator.speed = 1;
-            rigidbody2D.gravityScale = defaultGravityScale;
-        }
+                rigidbody2D.velocity = new Vector2(0f, vDirection * 3);
+                rigidbody2D.gravityScale = 0;
+            }
+            else
+            {
+                animator.speed = 1;
+                rigidbody2D.gravityScale = defaultGravityScale;
+            }
+        }        
     }
 
     private void Animations()
@@ -146,10 +160,14 @@ public class Player : MonoBehaviour
         Instantiate(basicShotPrefab, shootingTrigger.position, shootingTrigger.rotation);   
     }
 
-    public void KillPlayer()
+    public void KillPlayer(bool toggleAnimation)
     {
         soundManager.StopMusic();
         soundManager.PlaySound(ESource.Megaman, deathSound);
+        if (toggleAnimation)
+        {
+            // Toggle the death animation (blue ball in 8 directions)
+        }
         gameObject.SetActive(false);
         Invoke("ReloadLevel", 3f);
     }
@@ -164,8 +182,11 @@ public class Player : MonoBehaviour
         this.GetComponent<CapsuleCollider2D>().isTrigger = false;
         this.animator.SetTrigger("Spawn");
         isSpawning = false;
+        isInvulnerable = false;
+        rigidbody2D.gravityScale = defaultGravityScale;
         GameObject.Find("Main Camera").GetComponent<CameraScript>().SetPlayerTransform(base.transform);
         rigidbody2D.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
+        soundManager.PlaySound(ESource.Megaman, spawnSound);
     }
 
     public void DoDamage()
@@ -174,9 +195,16 @@ public class Player : MonoBehaviour
         {
             animator.SetBool("isHurt", true);
             this.isInvulnerable = true;
-            //this.health--;
-            StartCoroutine(this.DamageEffect());
-            SoundManager.instance.PlaySound(ESource.Megaman, hurtSound);
+            this.health--;
+            if (health <= 0)
+            {
+                KillPlayer(true);
+            }
+            else
+            {
+                StartCoroutine(this.DamageEffect());
+                SoundManager.instance.PlaySound(ESource.Megaman, hurtSound);
+            }
         }
     }
 
@@ -223,5 +251,10 @@ public class Player : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
         this.isInvulnerable = false;
+    }
+
+    public Vector3 GetPosition()
+    {
+        return this.transform.position;
     }
 }

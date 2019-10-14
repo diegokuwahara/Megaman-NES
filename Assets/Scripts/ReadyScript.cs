@@ -9,8 +9,8 @@ public class ReadyScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("CriaPlayer", 2.5f);
-        Destroy(gameObject, 2.5f);
+        Invoke("CriaPlayer", 3.0f);
+        Destroy(gameObject, 3.0f);
     }
 
     void CriaPlayer()

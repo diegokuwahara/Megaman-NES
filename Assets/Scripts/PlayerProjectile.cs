@@ -10,9 +10,7 @@ public class PlayerProjectile : MonoBehaviour
 
     private Rigidbody2D rigidbody2D;
     private SoundManager soundManager;
-
-    // Update is called once per frame
-
+    
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();

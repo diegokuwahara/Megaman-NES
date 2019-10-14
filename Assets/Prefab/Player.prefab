@@ -274,6 +274,7 @@ MonoBehaviour:
   walkSpeed: 4
   groundCheck: {fileID: 892639044}
   jumpStrength: 700
+  health: 2
   ladderLayer:
     serializedVersion: 2
     m_Bits: 2048
@@ -284,6 +285,7 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: 99f1abcf14c953942b1c959d295a3e02, type: 3}
   landingSound: {fileID: 8300000, guid: fc2114ef0dd201e42b3671883f9d81f8, type: 3}
   hurtSound: {fileID: 8300000, guid: 2a3f9502be919f24fb5a9f550bc61c7e, type: 3}
+  spawnSound: {fileID: 8300000, guid: c9364dc9620ad3346a04a4026fe93405, type: 3}
   hurtEffectSprite: {fileID: 4253046887279722369}
 --- !u!70 &8893940097460039229
 CapsuleCollider2D:

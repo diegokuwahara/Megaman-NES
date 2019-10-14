@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Scripts;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,5 +30,14 @@ public class CameraScript : MonoBehaviour
     public void SetPlayerTransform(Transform playerTransform)
     {
         player = playerTransform;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        IEnemyGenerator generator = collision.gameObject.GetComponent<IEnemyGenerator>();
+        if (generator != null)
+        {
+            generator.SpawnEnemy();
+        }
     }
 }

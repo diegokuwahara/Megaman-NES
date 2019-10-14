@@ -25,8 +25,8 @@ TagManager:
   - PlayerProjectile
   - DeathCollider
   - Enemy
-  - 
-  - 
+  - CameraBounderie
+  - EnemySpawner
   - 
   - 
   - 
